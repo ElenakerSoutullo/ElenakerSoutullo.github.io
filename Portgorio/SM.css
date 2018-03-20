@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+			#header {
+				display: flex;
+				justify-content: center;
+				width:100%;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#225BC2;
+				color:#88C1EC;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#0E296E;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+#principal{
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url(Jellyyy.jpg);
+	justify-content: center;
+	align-items: center; 
+}
+
+#principal p{
+	
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-family: 'Rammetto One'
+	
+}
+
+#principal img {
+	justify-content: center;
+	align-content: space-between;
+	margin: 50px;
+	height: 500px;
+}
+
+#parrafo {
+	display: flex;
+	align-content: space-around;
+}
+
+#parrafo p {
+	background: #00C9F7;
+	align-self: center;
+	font-size: 150%;
+	height: 50%;
+	width: 50%;
+}
+
+#footer{
+	background:#022D9E;
+	display: flex;
+	justify-content: space-around;
+}
